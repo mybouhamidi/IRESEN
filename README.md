@@ -1,2 +1,4 @@
 # IRESEN-
-UI for the internship 2019
+
+
+UI for the 2019 summer internship
