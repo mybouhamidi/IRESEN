@@ -1,5 +1,4 @@
 import os
-from random import randint
 import flask
 import dash
 import dash_daq as daq
@@ -87,7 +86,6 @@ main_tab_selected = {
 }
 
 server = flask.Flask(__name__)
-server.secret_key = os.environ.get('secret_key', str(randint(0, 1000000)))
           
 #initialisation de la page dash
 app = dash.Dash(__name__, server = server, external_stylesheets=['assets/style.css'])
@@ -243,4 +241,4 @@ app.layout =html.Div(
 ])
 
 if __name__ == '__main__':
-    app.run_server(debug = True, threaded = True)
+    app.run_server(debug = True)
