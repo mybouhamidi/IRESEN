@@ -8,5 +8,5 @@ Flask==1.1.2
 Flask-Compress==1.5.0
 gunicorn==20.0.4
 itsdangerous==1.1.0
-Jinja2==2.11.2
+Jinja2==2.11.3
 pandas==1.1.0
